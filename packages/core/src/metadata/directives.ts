@@ -825,6 +825,8 @@ export interface Input {
 
   /**
    * Function with which to transform the input value before assigning it to the directive instance.
+   * [@angular/core](api/core) provides [booleanAttribute()](api/core/booleanAttribute) and 
+   * [numberAttribute()](api/core/numberAttribute) to be used out-of-the-box.
    */
   transform?: (value: any) => any;
 }
